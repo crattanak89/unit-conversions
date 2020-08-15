@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "rattanak/unit-conversions",
+    "description": "Perform unit conversion",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "rattanak",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Rattanak Chuon",
+            "email": "rattanak.chuon@codingate.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Rattanak\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Rattanak\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
