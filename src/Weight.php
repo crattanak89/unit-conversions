@@ -18,6 +18,6 @@ class Weight
 
     public function toGrams(): float
     {
-        return $this->kilograms * 1000;
+        return $this->kilograms * 2000;
     }
 }
