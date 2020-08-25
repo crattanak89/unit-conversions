@@ -2,13 +2,26 @@
 
 namespace Rattanak\UnitConversions;
 
+use Exception;
+
 class Weight
 {
     private $kilograms;
 
-    public function __construct(float $kilograms)
-    {
+    public function __construct(float $kilograms){
+
+
+
+
+
+
         $this->kilograms = $kilograms;
+
+
+
+
+
+
     }
 
     public static function fromKilograms(float $kilograms): self
